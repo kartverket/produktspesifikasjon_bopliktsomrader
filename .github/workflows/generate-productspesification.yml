@@ -34,12 +34,8 @@ jobs:
             exit 1
           fi
 
-          json=$(printf '%s\n' "${paths[@]}" | jq -R . | jq -s '{config_path: .}')
-          {
-            echo "matrix<<'EOF'"
-            echo "$json"
-            echo "EOF"
-          } >> "$GITHUB_OUTPUT"
+          json=$(printf '%s\n' "${paths[@]}" | jq -R . | jq -cs '{config_path: .}')
+          echo "matrix=$json" >> "$GITHUB_OUTPUT"
 
   produktspesifikasjon:
     runs-on: ubuntu-latest
