@@ -139,6 +139,14 @@ jobs:
             if [ "${file:0:1}" != "/" ]; then
               file="$PWD/$file"
             fi
+            if [ ! -s "$file" ]; then
+              echo "Skipping PlantUML render; file missing or empty: $file"
+              continue
+            fi
+            if ! grep -q "@startuml" "$file"; then
+              echo "Skipping PlantUML render; no diagram found in: $file"
+              continue
+            fi
             output_dir="$(dirname "$file")"
             plantuml -tpng -output "$output_dir" "$file"
           done
