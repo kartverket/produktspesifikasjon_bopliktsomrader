@@ -1,0 +1,84 @@
+{
+  "identification": {
+    "id": "49415185-d99f-4546-b976-18cfbf167827",
+    "title": "Bopliktsområder",
+    "language": "nor",
+    "dates": {
+      "creation": "2025-12-11",
+      "publication": "2025-12-11",
+      "revision": "2025-12-11",
+      "metadata": "2026-01-05"
+    },
+    "responsibleParties": [
+      {
+        "organization": "Kartverket",
+        "email": "kundesenter@kartverket.no",
+        "role": "owner"
+      },
+      {
+        "organization": "Kartverket",
+        "email": "kundesenter@kartverket.no",
+        "role": "pointOfContact"
+      },
+      {
+        "organization": "Kartverket",
+        "email": "kundesenter@kartverket.no",
+        "role": "publisher"
+      }
+    ],
+    "organizationLogoUrl": "https://register.geonorge.no/data/organizations/971040238_Kartverket_liten.png"
+  },
+  "scope": {
+    "level": "dataset",
+    "extent": {
+      "temporal": {
+        "interval": [
+          [
+            "2025-12-11",
+            "2025-12-11"
+          ]
+        ]
+      }
+    },
+    "legalConstraints": {
+      "accessConstraints": "Åpne data",
+      "useConstraints": "Lisens",
+      "license": "No conditions apply to access and use",
+      "licenseUrl": "http://inspire.ec.europa.eu/metadata-codelist/ConditionsApplyingToAccessAndUse/noConditionsApply"
+    }
+  },
+  "dataQuality": {
+    "scope": {
+      "level": "dataset"
+    }
+  },
+  "maintenance": {
+    "maintenanceFrequency": "Etter behov"
+  },
+  "metadata": {
+    "standard": "ISO19115",
+    "standardVersion": "2003",
+    "metadataDate": "2026-01-05",
+    "language": "nor",
+    "pointOfContact": {
+      "organization": "Kartverket",
+      "email": "kundesenter@kartverket.no",
+      "role": "pointOfContact"
+    },
+    "identifiers": [
+      {
+        "authority": "geonorge",
+        "code": "49415185-d99f-4546-b976-18cfbf167827"
+      }
+    ],
+    "metadataUrl": "https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=49415185-d99f-4546-b976-18cfbf167827"
+  },
+  "links": [
+    {
+      "href": "https://www.geonorge.no/geonetwork/srv/nor/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=49415185-d99f-4546-b976-18cfbf167827",
+      "rel": "describedby",
+      "type": "application/xml",
+      "title": "Metadata (ISO 19139)"
+    }
+  ]
+}
